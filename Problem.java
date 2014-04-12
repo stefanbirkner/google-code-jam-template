@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Problem {
 	public static void main(String... args) {
+		Locale.setDefault(Locale.ENGLISH);
 		for (DataSet dataSet : new DataSets())
 			handleDataSet(dataSet);
 	}
